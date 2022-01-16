@@ -1,0 +1,51 @@
+URxvt.font: xft:monospace:size=16, xft:Noto Color Emoji, xft: JetBrainsMono Nerd Font:size=12 
+URxvt.scrollBar: false
+! Transparency
+urxvt*transparent: true
+urxvt*shading: 26
+! Setting transparency and background                                                                                                                                       
+URxvt*depth:      16                                                                                                                                                     
+URxvt.background: [85]#282828  
+
+! Colors
+URxvt*background:               #000000
+URxvt*foreground:               #d1d4e0
+URxvt*cursor:                   #d1d4e0
+URxvt*cursorColor:              #d1d4e0
+URxvt*highlightColor:           #252936
+URxvt*highlightTextColor:       #C0C5CE
+
+
+URxvt*color0:                   #101218
+URxvt*color1:                   #ee829f
+URxvt*color2:                   #a5ffe1
+URxvt*color3:                   #ffefcc
+URxvt*color4:                   #97bbf7
+URxvt*color5:                   #c0b7f9
+URxvt*color6:                   #97e0ff
+URxvt*color7:                   #d1d4e0
+URxvt*color8:                   #7780a1
+URxvt*color9:                   #ee829f
+URxvt*color10:                  #a5ffe1
+URxvt*color11:                  #ffefcc
+URxvt*color12:                  #97bbf7
+URxvt*color13:                  #c0b7f9
+URxvt*color14:                  #97e0ff
+URxvt*color15:                  #ffffff
+
+! Changing keybindings for copy and paste
+
+URxvt.keysym.Shift-Control-V: eval:paste_clipboard
+URxvt.keysym.Shift-Control-C: eval:selection_to_clipboard
+
+URxvt.keysym.Control-Meta-c: builtin-string:
+URxvt.keysym.Control-Meta-v: builtin-string:
+
+URxvt.keysym.Control-Delete: perl:fullscreen:switch
+
+!URxvt.resize-font-smaller: C-Down
+!URxvt.resize-font-bigger: C-Up
+
+!extensions
+!to add other extensions, add a comma then type the name of the extensions
+URxvt.perl-ext-common: fullscreen

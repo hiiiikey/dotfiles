@@ -1,0 +1,8 @@
+[ERROR:qt_backend.py:102:promptError()] No virtual screen name found
+No virtual screen name found
+[ERROR:qt_backend.py:102:promptError()] No virtual screen name found
+No virtual screen name found
+[ERROR:qt_backend.py:102:promptError()] No virtual screen name found
+No virtual screen name found
+[ERROR:qt_backend.py:102:promptError()] No virtual screen name found
+No virtual screen name found
